@@ -4,7 +4,7 @@ import MySQLdb
 from threading import Thread
 import threading
 import time
-import RPi.GPIO as GPIO
+import GPIOmock as GPIO
 import json
 from random import randint
 from evdev import InputDevice
